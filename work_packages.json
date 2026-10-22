@@ -16,9 +16,25 @@
         }
       },
       "scripts": [
-        "script_collection.change_octave",
         "script_collection.remove_all_sbs",
         "script_collection.add_sbs_every_n"
+      ],
+      "commitResult": true
+    },
+    {
+      "id": "change_octave",
+      "label": "Changer Ocatve",
+      "description": "Lorem",
+      "userFacing": true,
+      "params": {
+        "addOctave": {
+          "type": "Number",
+          "default": 2,
+          "description": "Isum"
+        }
+      },
+      "scripts": [
+        "script_collection.change_octave"
       ],
       "commitResult": true
     }
